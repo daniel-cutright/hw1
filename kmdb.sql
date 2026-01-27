@@ -141,6 +141,12 @@ INSERT INTO studios (
     "Warner Bros."
 );
 
+INSERT INTO agents (
+    agent_name
+) VALUES (
+    "Daniel Cutright"
+);
+
 -- Prints a header for the movies output
 .print "Movies"
 .print "======"
