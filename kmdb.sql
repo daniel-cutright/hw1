@@ -101,7 +101,37 @@ DROP TABLE IF EXISTS studios;
 DROP TABLE IF EXISTS agents;
 
 -- Create new tables, according to your domain model
--- TODO!
+CREATE TABLE actors (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  actor_name TEXT,
+  agent_id INTEGER
+);
+
+CREATE TABLE movies (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  movie_name TEXT,
+  release_year INTEGER,
+  MPAA_rating TEXT,
+  studio_id INTEGER
+);
+
+CREATE TABLE roles (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  role_name TEXT,
+  billing_order INTEGER,
+  actor_id INTEGER,
+  movie_id INTEGER
+);
+
+CREATE TABLE stuios (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  studio_name TEXT
+);
+
+CREATE TABLE agents (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  agent_name TEXT
+);
 
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
