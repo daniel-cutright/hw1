@@ -235,6 +235,42 @@ INSERT INTO actors (
     1
 );
 
+INSERT INTO movies (
+    movie_name,
+    release_year,
+    MPAA_rating,
+    studio_id
+) VALUES (
+    "Batman Begins",
+    2005,
+    "PG-13",
+    1
+);
+
+INSERT INTO movies (
+    movie_name,
+    release_year,
+    MPAA_rating,
+    studio_id
+) VALUES (
+    "The Dark Knight",
+    2008,
+    "PG-13",
+    1
+);
+
+INSERT INTO movies (
+    movie_name,
+    release_year,
+    MPAA_rating,
+    studio_id
+) VALUES (
+    "The Dark Knight Rises",
+    2012,
+    "PG-13",
+    1
+);
+
 -- Prints a header for the movies output
 .print "Movies"
 .print "======"
