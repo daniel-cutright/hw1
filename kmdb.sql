@@ -123,7 +123,7 @@ CREATE TABLE roles (
   movie_id INTEGER
 );
 
-CREATE TABLE stuios (
+CREATE TABLE studios (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   studio_name TEXT
 );
