@@ -456,8 +456,10 @@ INSERT INTO roles (
 .print "======"
 .print ""
 
--- ***TODO!***
--- The SQL statement for the movies output goes here.
+SELECT movie_name, release_year, MPAA_rating, studios.studio_name
+FROM movies
+    INNER JOIN studios ON studios.id = movies.studio_id
+ORDER BY release_year;
 
 -- Example output:
 -- Movies
