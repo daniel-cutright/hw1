@@ -474,8 +474,11 @@ ORDER BY release_year;
 .print "========"
 .print ""
 
--- ***TODO!***
--- The SQL statement for the cast output goes here.
+SELECT movies.movie_name, actors.actor_name, roles.role_name
+FROM roles
+    INNER JOIN movies ON movies.id = roles.movie_id
+    INNER JOIN actors ON actors.id = roles.actor_id
+ORDER BY movies.release_year, roles.billing_order;
 
 -- Example output:
 -- Top Cast
