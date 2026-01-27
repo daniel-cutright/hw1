@@ -135,7 +135,11 @@ CREATE TABLE agents (
 
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
--- TODO!
+INSERT INTO studios (
+    studio_name
+) VALUES (
+    "Warner Bros."
+);
 
 -- Prints a header for the movies output
 .print "Movies"
