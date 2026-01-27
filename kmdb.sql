@@ -505,8 +505,11 @@ ORDER BY movies.release_year, roles.billing_order;
 .print "===================="
 .print ""
 
--- ***TODO!***
--- The SQL statement for the represented actor(s) output goes here.
+SELECT actors.actor_name
+FROM actors
+    INNER JOIN agents ON agents.id = actors.agent_id
+WHERE agents.agent_name = "Daniel Cutright"
+ORDER BY actors.actor_name;
 
 -- Example output:
 -- Represented by agent
