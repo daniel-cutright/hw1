@@ -391,6 +391,66 @@ INSERT INTO roles (
     2
 );
 
+INSERT INTO roles (
+    role_name,
+    billing_order,
+    actor_id,
+    movie_id
+) VALUES (
+    "Bruce Wayne",
+    1,
+    1,
+    3
+);
+
+INSERT INTO roles (
+    role_name,
+    billing_order,
+    actor_id,
+    movie_id
+) VALUES (
+    "Commissioner Gordon",
+    2,
+    5,
+    3
+);
+
+INSERT INTO roles (
+    role_name,
+    billing_order,
+    actor_id,
+    movie_id
+) VALUES (
+    "Bane",
+    3,
+    9,
+    3
+);
+
+INSERT INTO roles (
+    role_name,
+    billing_order,
+    actor_id,
+    movie_id
+) VALUES (
+    "John Blake",
+    4,
+    10,
+    3
+);
+
+INSERT INTO roles (
+    role_name,
+    billing_order,
+    actor_id,
+    movie_id
+) VALUES (
+    "Selina Kyle",
+    5,
+    11,
+    3
+);
+
 -- Prints a header for the movies output
 .print "Movies"
 .print "======"
