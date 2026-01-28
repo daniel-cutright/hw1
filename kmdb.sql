@@ -64,7 +64,7 @@ INSERT INTO actors (
     agent_id
 ) VALUES (
     "Michael Caine",
-    1
+    NULL
 );
 
 INSERT INTO actors (
@@ -72,7 +72,7 @@ INSERT INTO actors (
     agent_id
 ) VALUES (
     "Liam Neeson",
-    1
+    NULL
 );
 
 INSERT INTO actors (
@@ -80,7 +80,7 @@ INSERT INTO actors (
     agent_id
 ) VALUES (
     "Katie Holmes",
-    1
+    NULL
 );
 
 INSERT INTO actors (
@@ -88,7 +88,7 @@ INSERT INTO actors (
     agent_id
 ) VALUES (
     "Gary Oldman",
-    1
+    NULL
 );
 
 INSERT INTO actors (
@@ -96,7 +96,7 @@ INSERT INTO actors (
     agent_id
 ) VALUES (
     "Heath Ledger",
-    1
+    NULL
 );
 
 INSERT INTO actors (
@@ -104,7 +104,7 @@ INSERT INTO actors (
     agent_id
 ) VALUES (
     "Aaron Eckhart",
-    1
+    NULL
 );
 
 INSERT INTO actors (
@@ -112,7 +112,7 @@ INSERT INTO actors (
     agent_id
 ) VALUES (
     "Maggie Gyllenhaal",
-    1
+    NULL
 );
 
 INSERT INTO actors (
@@ -120,7 +120,7 @@ INSERT INTO actors (
     agent_id
 ) VALUES (
     "Tom Hardy",
-    1
+    NULL
 );
 
 INSERT INTO actors (
@@ -128,7 +128,7 @@ INSERT INTO actors (
     agent_id
 ) VALUES (
     "Joseph Gordon-Levitt",
-    1
+    NULL
 );
 
 INSERT INTO actors (
@@ -136,7 +136,7 @@ INSERT INTO actors (
     agent_id
 ) VALUES (
     "Anne Hathaway",
-    1
+    NULL
 );
 
 INSERT INTO movies (
